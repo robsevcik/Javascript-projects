@@ -22,12 +22,12 @@ function multiplication() {
 
 function division() {
     var simple_Math1 = 48 / 6;
-    document.getElementById("Math3").innerHTML = "48 / 6 = " + simple_Math;
+    document.getElementById("Math3").innerHTML = "48 / 6 = " + simple_Math1;
 }
 
 function modulus_Operator() {
     var simple_Math = 25 % 6;
-    document.getElementById("Math2").innerHTML = "when you divide 25 by 6 you have a remainder of: " + simple_Math2;
+    document.getElementById("Math2").innerHTML = "when you divide 25 by 6 you have a remainder of: " + simple_Math;
 }
 
 function negation_Operator()  {
