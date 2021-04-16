@@ -37,9 +37,9 @@ var myFather = new Person("John", "Doe", 50, "blue");
 
 //nested function//
 function count_Function() {
-    document.getElementById("Counting").innerHTML = Count();
+    document.getElementById("Nested_Function").innerHTML = Count();
     function Count() {
-        var starting_point = 9;
+        var Starting_point = 9;
         function Plus_one() {Starting_point += 1;}
         Plus_one();
         return Starting_point;
