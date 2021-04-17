@@ -5,7 +5,7 @@ function countdown() {
         seconds = seconds - 1;
         TimeRanges.innerHTML = seconds;
         setTimeout(tick, 1000);
-    if(secondsz == - 1) {
+    if(seconds == - 1) {
         alert("Time's up!");
     }
     }
