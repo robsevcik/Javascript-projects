@@ -32,4 +32,24 @@ function search_Method() {
 function string_Method()  {
     var X =182;
     document.getElementById("Numbers_to_string").innerHTML = X.toString();
+
 }
+
+//pprecision method//
+function precision_Method()  {
+    var X = 12938.3012987375112;
+    document.getElementById("Precision").innerHTML = X.toPrecision(10);
+}
+
+function fixed_Method() {
+    var num = 5.56789;
+    var n = num.toFixed(2);
+    document.getElementById("Fixed").innerHTML = str;
+}
+
+
+    function value_Method() {
+        var str = "Hello World!";
+        var res = str.valueOf();
+        document.getElementById("Value").innerHTML = str;
+    }
