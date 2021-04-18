@@ -12,7 +12,7 @@ var Content = "";
 var Y;
 function for_Loop() {
   for (Y = 0; Y < Instruments.length; Y++) {
-    Content += Instruments [Y] + "<br>";
+    Content += Instruments[Y] + "<br>";
   }
   document.getElementById("List_of_Instruments").innerHTML = Content;
 }
@@ -43,7 +43,7 @@ function constant_function() {
 }
 
 function myFunction(name) {
-  return "Hello " + You;
+  return "Hello " + "You";
   document.getElementById("demo").innerHTML = myFunction("John");
 }
 //let keyword//
@@ -57,7 +57,7 @@ let car = {
 
   }
 };
-document.geetElementById("Car_Object").innerHTML = car.description();
+document.getElementById("Car_Object").innerHTML = car.description();
 
 var text = "";
 var i;
@@ -66,4 +66,3 @@ for (i = 0; i < 10; i++) {
   text += "The number is " + i + "<br>";
 }
 document.getElementById("demo2").innerHTML = text;
-</script>
