@@ -1,11 +1,5 @@
 
-var text = "";
-var i = 0;
-while (i < 10) {
-  text += "<br>The number is " + i;
-  i++;
-}
-document.getElementById("demo3").innerHTML =text;
+
 //for loop//
 var instruments = ["Guitar", "Drums", "Bass", "Violin", "Trumpet", "Flute"];
 var Content = "";
@@ -42,27 +36,34 @@ function constant_function() {
     Musical_Instrument.type + " was " + Musical_Instrument.price;
 }
 
-function myFunction(name) {
-  return "Hello " + "You";
-  document.getElementById("demo").innerHTML = myFunction("John");
+function myFunction2(name) {
+  return "Hello " + name;
+}
+function callName() {
+  document.getElementById("demo").innerHTML = myFunction2("John");
 }
 //let keyword//
-let car = {
-  make: "Dodge",
-  model: "Viper ",
-  year: "2021",
-  color: "red",
-  description : function() {
-    return "The car is a " + this.year + this.color + this.make + this.model;
-
-  }
-};
-document.getElementById("Car_Object").innerHTML = car.description();
-
-var text = "";
-var i;
-for (i = 0; i < 10; i++) {
-  if (i === 3) { break; }
-  text += "The number is " + i + "<br>";
+var  x = 10;
+// Here x is 10
+{  
+  let x = 2;
+  // Here x is 2
 }
+// Here x is 10
+document.getElementById("demo5").innerHTML = x;
+
+
+
+//break//
+var cars = ["BMW", "Volvo", "Saab", "Ford"];
+var text = "";
+
+list: {
+  text += cars[0] + "<br>"; 
+  text += cars[1] + "<br>"; 
+  break list;
+  text += cars[2] + "<br>"; 
+  text += cars[3] + "<br>"; 
+}
+
 document.getElementById("demo2").innerHTML = text;
