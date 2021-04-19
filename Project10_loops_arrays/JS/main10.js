@@ -40,7 +40,7 @@ function myFunction2(name) {
   return "Hello " + name;
 }
 function callName() {
-  document.getElementById("demo").innerHTML = myFunction2("John");
+  document.getElementById("demo6").innerHTML = myFunction2("Mark");
 }
 //let keyword//
 var  x = 10;
