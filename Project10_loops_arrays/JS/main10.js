@@ -67,3 +67,12 @@ list: {
 }
 
 document.getElementById("demo2").innerHTML = text;
+
+
+var text = "";
+var i = 0;
+while (i < 10) {
+  text += "<br>The number is " + i;
+  i++;
+}
+document.getElementById("demo7").innerHTML = text;
