@@ -1,13 +1,13 @@
 //This variable keeps track of whose turn it is
 let activePlayer = 'X';
 //This array stores an array of moves.We use this to determin win conditions.
-let selectiveSquares = [];
+let selectedSquares = [];
 //This function is for placing an x or o in a square
 function placeXOrO(squareNumber)  {
     //This condition ensures a square hasn't been selected already
     //The .some() method is used to check each element of selectedsquare array
     //to see if it contains the square number clicked on
-If (!selectedSquares.some(element => element.includes(squareNumber))) 
+if (!selectedSquares.some(element => element.includes(squareNumber))) {
     //This variable retrieves the html element id that was clicked
     let select = document.getElementById(squareNumber);
     //This condition checks who's turn it is.
@@ -34,7 +34,7 @@ If (!selectedSquares.some(element => element.includes(squareNumber)))
     }
 
     // this function plays placement sound
-    Audio('./media/place.mp3');
+    audio('./media/place.mp3');
     //This condition checks to see if its computer's turn
     if(activePlayer === 'O')  {
         //This function disablers clicking for computers choice
@@ -46,22 +46,23 @@ If (!selectedSquares.some(element => element.includes(squareNumber)))
     return true;
 }
 //This function results in a random square being selected
-function computersTurn() {
+    function computersTurn() {
     //this boolean is needed for our while loop.
-    let success = false;
-    //this varable stores a random number 0-8
-    let pickASquare;
-    //this condition alloiws our while loop to keep trying if a square is selected already
-    while(!success) {
-        //A random number between 0 and 8 is selected
-        pickASquare = String(Math.floor(Math.random() * 9));
-        //if random number evaluatedreturns true, the square hasnt been slected yet
-        if (placeXOrO(pickASquare)) {
-        //This line calls the function
-        placeXOrO(pickASquare);
-        //this changes our boolean and ends the loop
-        success = true;
-        };
+        let success = false;
+        //this varable stores a random number 0-8
+        let pickASquare;
+        //this condition alloiws our while loop to keep trying if a square is selected already
+        while(!success) {
+            //A random number between 0 and 8 is selected
+            pickASquare = String(Math.floor(Math.random() * 9));
+            //if random number evaluatedreturns true, the square hasnt been slected yet
+            if (placeXOrO(pickASquare)) {
+            //This line calls the function
+            placeXOrO(pickASquare);
+            //this changes our boolean and ends the loop
+            success = true;
+            };
+        }
     }
 }
 
@@ -69,7 +70,7 @@ function computersTurn() {
 //drawWinLine function is called to draw line if condition is met.
 function checkWinConditions() {
     //  X, O, 1, 2 condition
-    if   (arrayincudes('OX', '1X', '2X'))  { drawWinLine(50, 100, 558, 100)}
+    if   (arrayIncludes('OX', '1X', '2X'))  { drawWinLine(50, 100, 558, 100)}
     //X 3, 4, 5 condition
     else if (arrayIncludes('3X', '4X', '5X'))  { drawWinLine(50, 304, 558, 304)}
     else if (arrayIncludes('6X', '7X', '8X'))  {drawWinLine(50, 508, 558, 508)}
@@ -90,7 +91,7 @@ function checkWinConditions() {
     //squares are selected the code executes.
     else if (selectedSquares.length >= 9) {
         //This function plays the tie game sound
-        Audio('./media/tie.mp3');
+        audio('./media/tie.mp3');
         //this function sets a .3 second timer before the resetGame is called.
             setTimeout(function () { resetGame(); }, 1000);       
     }
@@ -118,6 +119,7 @@ function disableClick() {
 //placement sound
 function audio(audioURL) {
     //play method plays our audio sound
+    let audio = new Audio(audioURL);
     audio.play();
 }
 //This function utilizes html canvas to draw win lines
@@ -189,5 +191,5 @@ audio ('./media/winGame.mp3');
 //This line calls our main animation loop
 animateLineDrawing();
 //This line waits 1 second. Then clears canvas, resets game, and allows clicking again
-setTimeout(function () {clear(); resetGame();}, 1000);
+setTimeout(function () { clear(); resetGame(); }, 1000);
 }
