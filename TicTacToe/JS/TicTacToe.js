@@ -69,10 +69,10 @@ function computersTurn() {
 //drawWinLine function is called to draw line if condition is met.
 function checkWinConditions() {
     //  X, O, 1, 2 condition
-    if   (arrayincudes('OX, '1X', '2X'))  { drawWinLine(50, 100, 558, 100)}
+    if   (arrayincudes('OX', '1X', '2X'))  { drawWinLine(50, 100, 558, 100)}
     //X 3, 4, 5 condition
-    else if (arrayIncludes('3X', '4X, '5X'))  { drawWinLine(50, 304, 558, 304)}
-    else if (arrayIncludes('6X', '7X, '8X'))  {drawWinLine(50, 508, 558, 508)}
+    else if (arrayIncludes('3X', '4X', '5X'))  { drawWinLine(50, 304, 558, 304)}
+    else if (arrayIncludes('6X', '7X', '8X'))  {drawWinLine(50, 508, 558, 508)}
     else if (arrayIncludes( '0X', '3X', '6X')) { drawWinLine(100, 50, 100, 558)}
     else if (arrayIncludes('1X', '4X', '7X'))  { drawWinLine(304, 50, 304, 558)}
     else if (arrayIncludes('2X', '5X', '8X'))  { drawWinLine(508, 50, 508, 558)}
@@ -92,7 +92,7 @@ function checkWinConditions() {
         //This function plays the tie game sound
         Audio('./media/tie.mp3');
         //this function sets a .3 second timer before the resetGame is called.
-        setTimeout(function () { resetGame(); ), 1000);       
+            setTimeout(function () { resetGame(); }, 1000);       
     }
 
     //This function checks if an array includes 3 strings. It is used to check for
@@ -112,7 +112,7 @@ function disableClick() {
     //This makes our body unclickable
     body.style.pointerEvents = 'none';
     //This makes our body clickable again after 1 second
-    setTimeout(function() {body.style.pointerEvents = 'auto';), 1000);
+    setTimeout(function() {body.style.pointerEvents = 'auto';}, 1000);
 }
 //This function takes a string parameter of the path you set earlier for
 //placement sound
@@ -189,5 +189,5 @@ audio ('./media/winGame.mp3');
 //This line calls our main animation loop
 animateLineDrawing();
 //This line waits 1 second. Then clears canvas, resets game, and allows clicking again
-setTimeout(function () (clear(); resetGame();), 1000);
+setTimeout(function () {clear(); resetGame();}, 1000);
 }
