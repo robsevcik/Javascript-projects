@@ -13,11 +13,11 @@ if (!selectedSquares.some(element => element.includes(squareNumber))) {
     //This condition checks who's turn it is.
     if (activePlayer === 'X')  {
         //if active player is equal to X, the x.png is placed in HTML.
-        select.style.backgroundImage = 'url("images/x.png")';
+        select.style.backgroundImage = 'url("images/R2.png")';
         //Active playermay only be 'X' or 'O' so, if not 'X' it must be 'O'
     } else {
         //If active player is equal to 'O', the o.png is placed in html
-        select.style.backgroundImage = 'url("images/o.png")';
+        select.style.backgroundImage = 'url("images/darthV.png")';
     }
     //squareNumber and activePlayer are concatenated together and added to array.
     selectedSquares.push(squareNumber + activePlayer);
@@ -34,7 +34,7 @@ if (!selectedSquares.some(element => element.includes(squareNumber))) {
     }
 
     // this function plays placement sound
-    audio('./media/place.mp3');
+    audio('./media/r2sound.mp3');
     //This condition checks to see if its computer's turn
     if(activePlayer === 'O')  {
         //This function disablers clicking for computers choice
@@ -91,23 +91,13 @@ function checkWinConditions() {
     //squares are selected the code executes.
     else if (selectedSquares.length >= 9) {
         //This function plays the tie game sound
-        audio('./media/tie.mp3');
+        audio('./media/chewy.mp3');
         //this function sets a .3 second timer before the resetGame is called.
             setTimeout(function () { resetGame(); }, 1000);       
     }
 
     //this function resets the gamein the event of a tie or a win
-    function resetGame() {
-        //This for loop iterates through each HTML square element
-        for(let i = 0; i< 9; i++) {
-            //This variable gets the HTML element of 1.
-            let square = document.getElementsById(String(i))
-            //This removes our elements background image
-            square.style.backgroundImage = ''
-        }
-        //This resets our array so it is empty and we can start over
-        selectedSquares = [];
-    }
+   
     //This function checks if an array includes 3 strings. It is used to check for
     //each win condition
     function arrayIncludes(squareA, squareB, squareC) {
@@ -185,6 +175,17 @@ function animateLineDrawing() {
     }
 }
 
+function resetGame() {
+    //This for loop iterates through each HTML square element
+    for(let i = 0; i< 9; i++) {
+        //This variable gets the HTML element of 1.
+        let square = document.getElementById(String(i))
+        //This removes our elements background image
+        square.style.backgroundImage = ''
+    }
+    //This resets our array so it is empty and we can start over
+    selectedSquares = [];
+}
 
 //This function clears our canvas after our win line is drawn
 function clear() {
@@ -199,7 +200,7 @@ function clear() {
 //This line diallows clicking while the win sound is playing
 disableClick();
 //This line plays wind sound
-audio ('./media/winGame.mp3');
+audio ('./media/saber.mp3');
 //This line calls our main animation loop
 animateLineDrawing();
 //This line waits 1 second. Then clears canvas, resets game, and allows clicking again
