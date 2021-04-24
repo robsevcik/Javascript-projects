@@ -77,7 +77,7 @@ const Perform_Calculation = {
 
     '-': (First_Operand, Second_Operand) => First_Operand - Second_Operand,
 
-    '-': (First_Operand, Second_Operand) => Second_Operand
+    '=': (First_Operand, Second_Operand) => Second_Operand
 };
 
 function Calculator_Reset() {
@@ -88,13 +88,13 @@ function Calculator_Reset() {
 }
 // this function updates the screen with the contents of Display_Value
 function Update_Display() {
-    const display = document.querySelector(('.calculator-screen'));
-    display.value = Calcullator.Display_Value;
+    const display = document.querySelector('.calculator-screen');
+    display.value = Calculator.Display_Value;
 }
 
 Update_Display();
 //this section moniters button clicks
-const keys = documant.querySelector('calculator-keys');
+const keys = document.querySelector('.calculator-keys');
 keys.addEventListener('click', (event) => {
     //the target variable is an object that representd the element
     // that was clicked
@@ -105,22 +105,25 @@ keys.addEventListener('click', (event) => {
     }
 
     if (target.classList.contains ('operator')) {
-        Handles_Operator(target.value);
+        Handle_Operator(target.value);
         Update_Display();
         return;
     }
 
     if (target.classList.contains ('decimal')) {
-        Handles_Operator(target.value);
+        Input_Decimal(target.value);
         Update_Display();
         return;
     }
 
     //ensures that AC clears the numbers from the calculator
-    if (target.classList.contains('all clear'))  {
+    if (target.classList.contains('all-clear'))  {
         Calculator_Reset();
         Update_Display();
-
-    } )
+        return;
+    }
+        Input_Digit(target.value);
+        Update_Display();
+})
 
 
