@@ -101,7 +101,7 @@ function checkWinConditions() {
         //This for loop iterates through each HTML square element
         for(let i = 0; i< 9; i++) {
             //This variable gets the HTML element of 1.
-            let square = document.etElementsById(String(i))
+            let square = document.getElementsById(String(i))
             //This removes our elements background image
             square.style.backgroundImage = ''
         }
