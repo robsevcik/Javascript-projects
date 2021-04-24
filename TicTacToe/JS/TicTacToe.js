@@ -66,6 +66,18 @@ if (!selectedSquares.some(element => element.includes(squareNumber))) {
     }
 }
 
+function resetGame() {
+    //This for loop iterates through each HTML square element
+    for(let i = 0; i< 9; i++) {
+        //This variable gets the HTML element of 1.
+        let square = document.getElementById(String(i))
+        //This removes our elements background image
+        square.style.backgroundImage = ''
+    }
+    //This resets our array so it is empty and we can start over
+    selectedSquares = [];
+}
+
 //This function parses the selectSquares array to nsearch for win conditions.
 //drawWinLine function is called to draw line if condition is met.
 function checkWinConditions() {
@@ -173,18 +185,6 @@ function animateLineDrawing() {
         if (y > y2) { x -= 10;}
         if (x >= x2 && y <= y2) { cancelAnimationFrame(animationLoop);}
     }
-}
-
-function resetGame() {
-    //This for loop iterates through each HTML square element
-    for(let i = 0; i< 9; i++) {
-        //This variable gets the HTML element of 1.
-        let square = document.getElementById(String(i))
-        //This removes our elements background image
-        square.style.backgroundImage = ''
-    }
-    //This resets our array so it is empty and we can start over
-    selectedSquares = [];
 }
 
 //This function clears our canvas after our win line is drawn
