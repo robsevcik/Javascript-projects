@@ -96,6 +96,18 @@ function checkWinConditions() {
             setTimeout(function () { resetGame(); }, 1000);       
     }
 
+    //this function resets the gamein the event of a tie or a win
+    function resetGame() {
+        //This for loop iterates through each HTML square element
+        for(let i = 0; i< 9; i++) {
+            //This variable gets the HTML element of 1.
+            let square = document.etElementsById(String(i))
+            //This removes our elements background image
+            square.style.backgroundImage = ''
+        }
+        //This resets our array so it is empty and we can start over
+        selectedSquares = [];
+    }
     //This function checks if an array includes 3 strings. It is used to check for
     //each win condition
     function arrayIncludes(squareA, squareB, squareC) {
