@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang-"en">
+<head>
+	<meta charset="utf-8">
+	<title>Motorcycle Page</title>
+	<script src="JS/one_page.js" defer></script>
+<link rel= "stylesheet" type= "text/css" href= "CSS/one_page_website.css">
+</head>
+<body>
+
+<!--NAV-->
+<div class="flex container">
+	<div>
+		<ul>
+		<a href="GALLERY">Gallery</a>
+		<a href="Newsletter">Newsletter</a>
+		</ul>
+	</div>
+<h4 id="gallery">GALLERY</h4>
+	<div>
+		<span>A Passion for the engine</span>
+		</div>
+	</div>
+</div>
+<!--END HOME-->
+<!--GALLERY-->
+<section>
+	<a id="GALLERY"></a>
+		<h1>GALLERY</h1>
+		</div>
+		<!--PHOTO CONTAINER-->
+<div class="photo container">
+	<div>
+		<img src=".\images\bike_5.jfif" alt="Space walk">
+		<div>
+			<h3>Click to enlarge</h3>
+			<p>Free Ride!</p>
+		</div>
+	</div>
+</div>
+<!--END PHOTO CONTAINER-->
+<div>
+	<div>
+		<img src=".\images\bike_8.jfif" alt="My Bike">
+		<div>
+			<h3>Click to enlarge</h3>
+			<p>Steet Rod 750</p>
+		</div>
+	</div>
+</div>
+<!--END PHOTO CONTAINER-->
+<div>
+	<div>
+		<img src=".\images\bike_7.jfif" alt="fatboy">
+		<div>
+			<h3>Click to enlarge</h3>
+			<p>Fatboy</p>
+		</div>
+	</div>
+</div>
+<!--END PHOTO CONTAINER-->
+<div>
+	<div>
+		<img src=".\images\bike_6.jfif" alt="red chopper">
+		<div>
+			<h3>Click to enlarge</h3>
+			<p>custom chopper</p>
+		</div>
+	</div>
+</div>
+<!--END PHOTO CONTAINER-->
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/Wfpo5IhASPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+	<p>something about motorcycles and how great they are. Join the monthly news letter.</p>
+<section>
+	<div id="reservation">
+		<div class="form">
+		<h1>Newsletter</h1>
+		<div>
+			<h2><span>Sign up for our monthly newsletter!</span>
+			<br /> Join us on the road!
+			</h2>
+			<p>please provide some basic contact info</p>
+		<div>
+			<form action="" method="post">
+			<input class="rsvp" type="text" value="First Name">
+			<input class="rsvp" type="text" value="Last Name">
+			<input class="rsvp" type="text" value="Email Address">
+			<class form="form-spacer">
+				<br><label class="terms" > Terms and conditions</label>
+			</div>
+			<div>
+			<input type="submit" value="Submit">
+			</div>
+			</form>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<div class="footer">
+  <p>Ride with us today!</p>
+</div
+<!-- Images used to open the lightbox -->
+<div class="row">
+  <div class="column">
+    <img src="./images/bike_1.jfif" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="./images/bike_2.jfif" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="./images/bike_3.jfif" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="./images/bike_4.jfif" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="./images/bike_1.jfif" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="./images/bike_2.jfif" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="./images/bike_3.jfif" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="./images/bike_4.jfif" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="./images/bike_1.jfif" onclick="currentSlide(1)" alt="Big HArd Tail">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="./images/bike_2.jfif" onclick="currentSlide(2)" alt="Softtail">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="./images/bike_3.jfif" onclick="currentSlide(3)" alt="Street 750">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="./images/bike_4.jfif" onclick="currentSlide(4)" alt="Easy Rider">
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
