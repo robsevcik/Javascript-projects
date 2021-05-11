@@ -1,0 +1,5 @@
+﻿Build started...
+1>------ Build started: Project: WebApplication7, Configuration: Debug Any CPU ------
+1>WebApplication7 -> C:\Users\chefr\source\repos\WebApplication7\bin\Debug\netcoreapp3.1\WebApplication7.dll
+1>WebApplication7 -> C:\Users\chefr\source\repos\WebApplication7\bin\Debug\netcoreapp3.1\WebApplication7.Views.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
