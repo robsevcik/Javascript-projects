@@ -9,14 +9,14 @@ namespace income_comparrison
             Console.WriteLine("Anonymous Income Comparison Program");
             Console.WriteLine("Person 1");
             Console.WriteLine("Hourly Rate?");
-            int rate1 = 15.00;
+            int rate1 = 15;
             Console.WriteLine(rate1);
             Console.WriteLine("Hours per week?");
             int hourly1 = 50;
             Console.WriteLine(hourly1);
             Console.WriteLine("Person2");
             Console.WriteLine("Hourly rate?");
-            int rate2 = 16.75;
+            int rate2 = 16;
             Console.WriteLine(rate2);
             Console.WriteLine("Hours per week");
             int hourly2 = 35;
@@ -25,9 +25,9 @@ namespace income_comparrison
             int salary2 = rate2 * hourly2;
             Console.WriteLine(salary1);
             Console.WriteLine("Anual salary of person 2");
-            Console.WriteLine(salary2)
-            Console.WriteLine("Does Person 1 make more money than person2?")
-            Bool totalsalary = salary1 > salary2;
+            Console.WriteLine(salary2);
+            Console.WriteLine("Does Person 1 make more money than person2?");
+            bool totalsalary = salary1 > salary2;
             Console.WriteLine(totalsalary);
             Console.ReadLine();
 
