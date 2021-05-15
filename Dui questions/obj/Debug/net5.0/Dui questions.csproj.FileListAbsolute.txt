@@ -1,0 +1,5 @@
+C:\Users\chefr\source\repos\Dui questions\obj\Debug\net5.0\Dui questions.csprojAssemblyReference.cache
+C:\Users\chefr\source\repos\Dui questions\obj\Debug\net5.0\Dui questions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chefr\source\repos\Dui questions\obj\Debug\net5.0\Dui questions.AssemblyInfoInputs.cache
+C:\Users\chefr\source\repos\Dui questions\obj\Debug\net5.0\Dui questions.AssemblyInfo.cs
+C:\Users\chefr\source\repos\Dui questions\obj\Debug\net5.0\Dui questions.csproj.CoreCompileInputs.cache
