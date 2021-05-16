@@ -1,0 +1,16 @@
+C:\Users\chefr\source\repos\while statement\obj\Debug\net5.0\while statement.csprojAssemblyReference.cache
+C:\Users\chefr\source\repos\while statement\obj\Debug\net5.0\while statement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chefr\source\repos\while statement\obj\Debug\net5.0\while statement.AssemblyInfoInputs.cache
+C:\Users\chefr\source\repos\while statement\obj\Debug\net5.0\while statement.AssemblyInfo.cs
+C:\Users\chefr\source\repos\while statement\obj\Debug\net5.0\while statement.csproj.CoreCompileInputs.cache
+C:\Users\chefr\source\repos\while statement\bin\Debug\net5.0\while statement.exe
+C:\Users\chefr\source\repos\while statement\bin\Debug\net5.0\while statement.deps.json
+C:\Users\chefr\source\repos\while statement\bin\Debug\net5.0\while statement.runtimeconfig.json
+C:\Users\chefr\source\repos\while statement\bin\Debug\net5.0\while statement.runtimeconfig.dev.json
+C:\Users\chefr\source\repos\while statement\bin\Debug\net5.0\while statement.dll
+C:\Users\chefr\source\repos\while statement\bin\Debug\net5.0\ref\while statement.dll
+C:\Users\chefr\source\repos\while statement\bin\Debug\net5.0\while statement.pdb
+C:\Users\chefr\source\repos\while statement\obj\Debug\net5.0\while statement.dll
+C:\Users\chefr\source\repos\while statement\obj\Debug\net5.0\ref\while statement.dll
+C:\Users\chefr\source\repos\while statement\obj\Debug\net5.0\while statement.pdb
+C:\Users\chefr\source\repos\while statement\obj\Debug\net5.0\while statement.genruntimeconfig.cache
