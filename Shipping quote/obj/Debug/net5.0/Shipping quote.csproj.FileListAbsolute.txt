@@ -1,0 +1,16 @@
+C:\Users\chefr\source\repos\Shipping quote\obj\Debug\net5.0\Shipping quote.csprojAssemblyReference.cache
+C:\Users\chefr\source\repos\Shipping quote\obj\Debug\net5.0\Shipping quote.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chefr\source\repos\Shipping quote\obj\Debug\net5.0\Shipping quote.AssemblyInfoInputs.cache
+C:\Users\chefr\source\repos\Shipping quote\obj\Debug\net5.0\Shipping quote.AssemblyInfo.cs
+C:\Users\chefr\source\repos\Shipping quote\obj\Debug\net5.0\Shipping quote.csproj.CoreCompileInputs.cache
+C:\Users\chefr\source\repos\Shipping quote\bin\Debug\net5.0\Shipping quote.exe
+C:\Users\chefr\source\repos\Shipping quote\bin\Debug\net5.0\Shipping quote.deps.json
+C:\Users\chefr\source\repos\Shipping quote\bin\Debug\net5.0\Shipping quote.runtimeconfig.json
+C:\Users\chefr\source\repos\Shipping quote\bin\Debug\net5.0\Shipping quote.runtimeconfig.dev.json
+C:\Users\chefr\source\repos\Shipping quote\bin\Debug\net5.0\Shipping quote.dll
+C:\Users\chefr\source\repos\Shipping quote\bin\Debug\net5.0\ref\Shipping quote.dll
+C:\Users\chefr\source\repos\Shipping quote\bin\Debug\net5.0\Shipping quote.pdb
+C:\Users\chefr\source\repos\Shipping quote\obj\Debug\net5.0\Shipping quote.dll
+C:\Users\chefr\source\repos\Shipping quote\obj\Debug\net5.0\ref\Shipping quote.dll
+C:\Users\chefr\source\repos\Shipping quote\obj\Debug\net5.0\Shipping quote.pdb
+C:\Users\chefr\source\repos\Shipping quote\obj\Debug\net5.0\Shipping quote.genruntimeconfig.cache
