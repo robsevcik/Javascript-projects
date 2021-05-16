@@ -1,0 +1,15 @@
+C:\Users\chefr\source\repos\DUI2\bin\Debug\net5.0\DUI2.exe
+C:\Users\chefr\source\repos\DUI2\bin\Debug\net5.0\DUI2.deps.json
+C:\Users\chefr\source\repos\DUI2\bin\Debug\net5.0\DUI2.runtimeconfig.json
+C:\Users\chefr\source\repos\DUI2\bin\Debug\net5.0\DUI2.runtimeconfig.dev.json
+C:\Users\chefr\source\repos\DUI2\bin\Debug\net5.0\DUI2.dll
+C:\Users\chefr\source\repos\DUI2\bin\Debug\net5.0\ref\DUI2.dll
+C:\Users\chefr\source\repos\DUI2\bin\Debug\net5.0\DUI2.pdb
+C:\Users\chefr\source\repos\DUI2\obj\Debug\net5.0\DUI2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chefr\source\repos\DUI2\obj\Debug\net5.0\DUI2.AssemblyInfoInputs.cache
+C:\Users\chefr\source\repos\DUI2\obj\Debug\net5.0\DUI2.AssemblyInfo.cs
+C:\Users\chefr\source\repos\DUI2\obj\Debug\net5.0\DUI2.csproj.CoreCompileInputs.cache
+C:\Users\chefr\source\repos\DUI2\obj\Debug\net5.0\DUI2.dll
+C:\Users\chefr\source\repos\DUI2\obj\Debug\net5.0\ref\DUI2.dll
+C:\Users\chefr\source\repos\DUI2\obj\Debug\net5.0\DUI2.pdb
+C:\Users\chefr\source\repos\DUI2\obj\Debug\net5.0\DUI2.genruntimeconfig.cache
