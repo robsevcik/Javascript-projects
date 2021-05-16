@@ -1,0 +1,15 @@
+C:\Users\chefr\source\repos\Daily Report\obj\Debug\net5.0\Daily Report.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chefr\source\repos\Daily Report\obj\Debug\net5.0\Daily Report.AssemblyInfoInputs.cache
+C:\Users\chefr\source\repos\Daily Report\obj\Debug\net5.0\Daily Report.AssemblyInfo.cs
+C:\Users\chefr\source\repos\Daily Report\obj\Debug\net5.0\Daily Report.csproj.CoreCompileInputs.cache
+C:\Users\chefr\source\repos\Daily Report\bin\Debug\net5.0\Daily Report.exe
+C:\Users\chefr\source\repos\Daily Report\bin\Debug\net5.0\Daily Report.deps.json
+C:\Users\chefr\source\repos\Daily Report\bin\Debug\net5.0\Daily Report.runtimeconfig.json
+C:\Users\chefr\source\repos\Daily Report\bin\Debug\net5.0\Daily Report.runtimeconfig.dev.json
+C:\Users\chefr\source\repos\Daily Report\bin\Debug\net5.0\Daily Report.dll
+C:\Users\chefr\source\repos\Daily Report\bin\Debug\net5.0\ref\Daily Report.dll
+C:\Users\chefr\source\repos\Daily Report\bin\Debug\net5.0\Daily Report.pdb
+C:\Users\chefr\source\repos\Daily Report\obj\Debug\net5.0\Daily Report.dll
+C:\Users\chefr\source\repos\Daily Report\obj\Debug\net5.0\ref\Daily Report.dll
+C:\Users\chefr\source\repos\Daily Report\obj\Debug\net5.0\Daily Report.pdb
+C:\Users\chefr\source\repos\Daily Report\obj\Debug\net5.0\Daily Report.genruntimeconfig.cache
