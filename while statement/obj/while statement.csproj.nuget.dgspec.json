@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chefr\\source\\repos\\while statement\\while statement.csproj": {}
+    "D:\\Documents\\Javascript projects\\Javascript-projects\\while statement\\while statement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chefr\\source\\repos\\while statement\\while statement.csproj": {
+    "D:\\Documents\\Javascript projects\\Javascript-projects\\while statement\\while statement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chefr\\source\\repos\\while statement\\while statement.csproj",
+        "projectUniqueName": "D:\\Documents\\Javascript projects\\Javascript-projects\\while statement\\while statement.csproj",
         "projectName": "while statement",
-        "projectPath": "C:\\Users\\chefr\\source\\repos\\while statement\\while statement.csproj",
+        "projectPath": "D:\\Documents\\Javascript projects\\Javascript-projects\\while statement\\while statement.csproj",
         "packagesPath": "C:\\Users\\chefr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chefr\\source\\repos\\while statement\\obj\\",
+        "outputPath": "D:\\Documents\\Javascript projects\\Javascript-projects\\while statement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
