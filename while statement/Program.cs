@@ -10,8 +10,8 @@ namespace while_statement
             int number = Convert.ToInt32(Console.ReadLine());
             bool isGuessed = number == 12;
 
-            while (isGuessed) ;
-            {
+            
+            
                 Console.WriteLine("Guess again please");
 
 
@@ -44,8 +44,13 @@ namespace while_statement
 
                 while (!isGuessed);
 
-                string v = Console.ReadLine(); ;
+            int counter = 0;
+            while (counter <5)
+            {
+                Console.WriteLine(counter);
+                counter++;
             }
+            Console.ReadLine();
         }
     }
     }
