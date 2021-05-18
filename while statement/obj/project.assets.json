@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\Javascript projects\\Javascript-projects\\while statement\\while statement.csproj",
+      "projectUniqueName": "C:\\Users\\chefr\\source\\repos\\while statement\\while statement.csproj",
       "projectName": "while statement",
-      "projectPath": "D:\\Documents\\Javascript projects\\Javascript-projects\\while statement\\while statement.csproj",
+      "projectPath": "C:\\Users\\chefr\\source\\repos\\while statement\\while statement.csproj",
       "packagesPath": "C:\\Users\\chefr\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\Javascript projects\\Javascript-projects\\while statement\\obj\\",
+      "outputPath": "C:\\Users\\chefr\\source\\repos\\while statement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
