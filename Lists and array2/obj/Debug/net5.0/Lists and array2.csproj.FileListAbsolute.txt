@@ -14,3 +14,11 @@ C:\Users\chefr\source\repos\Lists and array2\obj\Debug\net5.0\Lists and array2.d
 C:\Users\chefr\source\repos\Lists and array2\obj\Debug\net5.0\ref\Lists and array2.dll
 C:\Users\chefr\source\repos\Lists and array2\obj\Debug\net5.0\Lists and array2.pdb
 C:\Users\chefr\source\repos\Lists and array2\obj\Debug\net5.0\Lists and array2.genruntimeconfig.cache
+D:\Documents\Javascript projects\Javascript-projects\Lists and array2\obj\Debug\net5.0\Lists and array2.csprojAssemblyReference.cache
+D:\Documents\Javascript projects\Javascript-projects\Lists and array2\obj\Debug\net5.0\Lists and array2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Javascript projects\Javascript-projects\Lists and array2\obj\Debug\net5.0\Lists and array2.AssemblyInfoInputs.cache
+D:\Documents\Javascript projects\Javascript-projects\Lists and array2\obj\Debug\net5.0\Lists and array2.AssemblyInfo.cs
+D:\Documents\Javascript projects\Javascript-projects\Lists and array2\obj\Debug\net5.0\Lists and array2.csproj.CoreCompileInputs.cache
+D:\Documents\Javascript projects\Javascript-projects\Lists and array2\obj\Debug\net5.0\Lists and array2.dll
+D:\Documents\Javascript projects\Javascript-projects\Lists and array2\obj\Debug\net5.0\ref\Lists and array2.dll
+D:\Documents\Javascript projects\Javascript-projects\Lists and array2\obj\Debug\net5.0\Lists and array2.pdb
