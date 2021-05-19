@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\Javascript projects\\Javascript-projects\\Lists and array2\\Lists and array2.csproj",
+      "projectUniqueName": "C:\\Users\\chefr\\source\\repos\\Lists and array2\\Lists and array2.csproj",
       "projectName": "Lists and array2",
-      "projectPath": "D:\\Documents\\Javascript projects\\Javascript-projects\\Lists and array2\\Lists and array2.csproj",
+      "projectPath": "C:\\Users\\chefr\\source\\repos\\Lists and array2\\Lists and array2.csproj",
       "packagesPath": "C:\\Users\\chefr\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\Javascript projects\\Javascript-projects\\Lists and array2\\obj\\",
+      "outputPath": "C:\\Users\\chefr\\source\\repos\\Lists and array2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
