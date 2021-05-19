@@ -40,10 +40,22 @@ namespace Lists_and_array2
             int num1 = Convert.ToInt32(Console.ReadLine());
 
           if (stringArray.Contains(num1))
+            {
                 Console.WriteLine(stringArray[num1]);
-
+            }
             else
                 Console.WriteLine("Sorry thats not one");
+
+
+            List<string> string1 = new List<string>();
+
+            string1.Add("bacon");
+            string1.Add("eggs");
+            string1.Add("waffles");
+
+            Console.WriteLine("whats for Breakfast?");
+            string num2 = Convert.ToString(Console.ReadLine());
+            Console.WriteLine(string1[num2]);
 
 
 
