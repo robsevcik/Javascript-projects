@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Lists_and_array2
@@ -22,12 +23,14 @@ namespace Lists_and_array2
             int num = Convert.ToInt32(Console.ReadLine());
 
 
-            if (numArray.Contains(num))
+            if (num < 0 || num > 5)
+            {
                 Console.WriteLine(numArray[num]);
-
+            }
             else
+            {
                 Console.WriteLine("Sorry thats not one");
-
+            }
 
             string[] stringArray = new string[4];
             stringArray[0] = "chevy";
@@ -39,12 +42,26 @@ namespace Lists_and_array2
             Console.WriteLine("Choose an index");
             int num1 = Convert.ToInt32(Console.ReadLine());
 
-            if (stringArray.Contains(num1))
+            if (num1 < 0 || num1 > 5)
             {
                 Console.WriteLine(stringArray[num1]);
             }
             else
+            {
                 Console.WriteLine("Sorry thats not one");
+            }
+
+            List<string> breakfast = new List<string>();
+
+            breakfast.Add("eggs");
+            breakfast.Add("bacon");
+            breakfast.Add("waffles");
+
+
+            Console.WriteLine("Choose an index");
+            string index = Convert.ToString(Console.ReadLine());
+            Console.WriteLine(index);
+
 
 
 
