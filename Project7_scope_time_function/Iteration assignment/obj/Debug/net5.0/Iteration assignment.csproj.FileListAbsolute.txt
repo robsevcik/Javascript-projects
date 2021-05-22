@@ -1,0 +1,16 @@
+C:\Users\chefr\source\repos\Iteration assignment\obj\Debug\net5.0\Iteration assignment.csprojAssemblyReference.cache
+C:\Users\chefr\source\repos\Iteration assignment\obj\Debug\net5.0\Iteration assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chefr\source\repos\Iteration assignment\obj\Debug\net5.0\Iteration assignment.AssemblyInfoInputs.cache
+C:\Users\chefr\source\repos\Iteration assignment\obj\Debug\net5.0\Iteration assignment.AssemblyInfo.cs
+C:\Users\chefr\source\repos\Iteration assignment\obj\Debug\net5.0\Iteration assignment.csproj.CoreCompileInputs.cache
+C:\Users\chefr\source\repos\Iteration assignment\bin\Debug\net5.0\Iteration assignment.exe
+C:\Users\chefr\source\repos\Iteration assignment\bin\Debug\net5.0\Iteration assignment.deps.json
+C:\Users\chefr\source\repos\Iteration assignment\bin\Debug\net5.0\Iteration assignment.runtimeconfig.json
+C:\Users\chefr\source\repos\Iteration assignment\bin\Debug\net5.0\Iteration assignment.runtimeconfig.dev.json
+C:\Users\chefr\source\repos\Iteration assignment\bin\Debug\net5.0\Iteration assignment.dll
+C:\Users\chefr\source\repos\Iteration assignment\bin\Debug\net5.0\ref\Iteration assignment.dll
+C:\Users\chefr\source\repos\Iteration assignment\bin\Debug\net5.0\Iteration assignment.pdb
+C:\Users\chefr\source\repos\Iteration assignment\obj\Debug\net5.0\Iteration assignment.dll
+C:\Users\chefr\source\repos\Iteration assignment\obj\Debug\net5.0\ref\Iteration assignment.dll
+C:\Users\chefr\source\repos\Iteration assignment\obj\Debug\net5.0\Iteration assignment.pdb
+C:\Users\chefr\source\repos\Iteration assignment\obj\Debug\net5.0\Iteration assignment.genruntimeconfig.cache
