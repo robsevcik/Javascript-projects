@@ -23,7 +23,7 @@ namespace Lists_and_array2
             int num = Convert.ToInt32(Console.ReadLine());
 
 
-            if (num >= 0 && num < 5)
+            if (num >= 0 && num < 4)
             {
                 Console.WriteLine(numArray[num]);
             }
@@ -42,7 +42,7 @@ namespace Lists_and_array2
             Console.WriteLine("Choose an index");
             int num1 = Convert.ToInt32(Console.ReadLine());
 
-            if (num1 >= 0 && num1 < 5)
+            if (num1 >= 0 && num1 < 3)
             {
                 Console.WriteLine(stringArray[num1]);
             }
@@ -59,8 +59,8 @@ namespace Lists_and_array2
 
 
             Console.WriteLine("Choose an index");
-            string index = Convert.ToString(Console.ReadLine());
-            Console.WriteLine(index);
+            int index = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(breakfast);
 
 
 
