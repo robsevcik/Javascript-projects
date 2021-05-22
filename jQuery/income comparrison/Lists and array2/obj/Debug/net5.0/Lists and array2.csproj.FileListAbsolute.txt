@@ -1,0 +1,16 @@
+C:\Users\chefr\source\repos\Lists and array2\obj\Debug\net5.0\Lists and array2.csprojAssemblyReference.cache
+C:\Users\chefr\source\repos\Lists and array2\obj\Debug\net5.0\Lists and array2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chefr\source\repos\Lists and array2\obj\Debug\net5.0\Lists and array2.AssemblyInfoInputs.cache
+C:\Users\chefr\source\repos\Lists and array2\obj\Debug\net5.0\Lists and array2.AssemblyInfo.cs
+C:\Users\chefr\source\repos\Lists and array2\obj\Debug\net5.0\Lists and array2.csproj.CoreCompileInputs.cache
+C:\Users\chefr\source\repos\Lists and array2\bin\Debug\net5.0\Lists and array2.exe
+C:\Users\chefr\source\repos\Lists and array2\bin\Debug\net5.0\Lists and array2.deps.json
+C:\Users\chefr\source\repos\Lists and array2\bin\Debug\net5.0\Lists and array2.runtimeconfig.json
+C:\Users\chefr\source\repos\Lists and array2\bin\Debug\net5.0\Lists and array2.runtimeconfig.dev.json
+C:\Users\chefr\source\repos\Lists and array2\bin\Debug\net5.0\Lists and array2.dll
+C:\Users\chefr\source\repos\Lists and array2\bin\Debug\net5.0\ref\Lists and array2.dll
+C:\Users\chefr\source\repos\Lists and array2\bin\Debug\net5.0\Lists and array2.pdb
+C:\Users\chefr\source\repos\Lists and array2\obj\Debug\net5.0\Lists and array2.dll
+C:\Users\chefr\source\repos\Lists and array2\obj\Debug\net5.0\ref\Lists and array2.dll
+C:\Users\chefr\source\repos\Lists and array2\obj\Debug\net5.0\Lists and array2.pdb
+C:\Users\chefr\source\repos\Lists and array2\obj\Debug\net5.0\Lists and array2.genruntimeconfig.cache
