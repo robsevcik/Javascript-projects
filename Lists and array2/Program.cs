@@ -60,7 +60,7 @@ namespace Lists_and_array2
 
             Console.WriteLine("Choose an index");
             int index = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(breakfast);
+            Console.WriteLine(breakfast[index]);
 
 
 
