@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>income_comparrison</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="D:\Documents\Javascript projects\Javascript-projects\Program3.cs" Link="Program3.cs" />
+  </ItemGroup>
+
+</Project>
