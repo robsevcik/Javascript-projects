@@ -1,0 +1,5 @@
+C:\Users\chefr\source\repos\income comparrison\obj\Debug\net5.0\income comparrison.csprojAssemblyReference.cache
+C:\Users\chefr\source\repos\income comparrison\obj\Debug\net5.0\income comparrison.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chefr\source\repos\income comparrison\obj\Debug\net5.0\income comparrison.AssemblyInfoInputs.cache
+C:\Users\chefr\source\repos\income comparrison\obj\Debug\net5.0\income comparrison.AssemblyInfo.cs
+C:\Users\chefr\source\repos\income comparrison\obj\Debug\net5.0\income comparrison.csproj.CoreCompileInputs.cache
