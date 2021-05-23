@@ -8,95 +8,118 @@ namespace Iteration_assignment
     {
 
         private static int int1;
+        private static object flavor;
 
         static void Main(string[] args)
         {
-            string[] bikes = { "Harley", "Honda", "Triumph", "Indian" };
+            string[] bikes = { "harley", "honda", "triumph", "indian" };
 
-            Console.WriteLine("what is your favorite motorcycle?");
-            string userbike = Console.ReadLine();
+            console.writeline("what is your favorite motorcycle?");
+            string userbike = console.readline();
 
             string[] bikes1 = bikes;
             foreach (string s in bikes1)
             {
-                Console.WriteLine(userbike);
+                console.writeline(userbike);
             }
             foreach (var item in bikes)
             {
-                Console.WriteLine(item);
+                console.writeline(item);
             }
 
-            int1 i = 0;
-            for (int1 = 0; int1 < bikes.Length; i++)
+            int1 n = 0;
+            for (int1 = 0; int1 < bikes.length; n++)
             {
-                string input = bikes[i] + "is" + userbike;
-                bikes1[i] = input;
+                string input = bikes[n] + "is" + userbike;
+                bikes1[n] = input;
             }
 
             //infinite loop//
 
             for (int a = 0; a < 50; a--)
             {
-                Console.WriteLine("value : {0}", a);
+                console.writeline("value : {0}", a);
             }
-            Console.ReadLine();
+            console.readline();
 
             //end loop//
 
-            //< loop//
+            //<loop//
 
             for (int a = 0; a < 10; a++)
-            {
-                Console.WriteLine("Value of i: {0}", i);
-            }
+            
+               console.writeline("value of i: {0}", n);
+         
 
-            // <= loop//
+             <= loop//
 
             for (int y = 0; y <= 10; y = y + 2)
             {
-                Console.WriteLine(i);
-            }
+                console.writeline(n);
+           }
 
-            // list of strings//
+            //list of strings//
 
 
-            List<string> Pizza = new List<string>();
 
-            Pizza.Add("pepperoni");
-            Pizza.Add("xtra cheese");
-            Pizza.Add("onions");
-            Pizza.Add("mushrooms");
-            Pizza.Add("anchovies");
-            Pizza.Add("black olives");
-            Pizza.Add("peppers");
 
-            Console.WriteLine("enter a pizza topping");
-            string topping = Console.ReadLine();
-            Console.WriteLine(topping);
+            ////////////////part 5/////////////
 
-        }   
 
-            for (int i = 0; I<Pizza.count; i ++)
+            list<string> cookie = new list<string>();
+
+            cookie.add("chocolate_chip");
+            cookie.add("peanutbutter");
+            cookie.add("snickerdoodle");
+            cookie.add("macadamin");
+            cookie.add("snickerdoodle");
+
+            console.writeline("what is your favorite cookie?");
+            string index = console.readline();
+            for (int w = 0; w < cookie.count; w++)
             {
-            if (Pizza[i] == topping)
-            }
-            { 
-            Console.WriteLine(topping);
-            break;
-
-            }
-           else
-             }
-            {
-    Console.WriteLine("sorry thats not on the list");
+                if (cookie[w] == index)
+                {
+                    console.writeline("match found at index " + w);
                 }
-    
-    
-    Console.ReadLine();
+                else
+                {
+                    console.writeline("sorry thats not the right one");
+
+                }
 
 
-         /////////////////////////////
+            }
 
+
+
+            ////////part 6////////////////////
+            ///
+
+            List<string> fruit = new List<string>();
+
+            fruit.Add("apple");
+            fruit.Add("orange");
+            fruit.Add("apple");
+            fruit.Add("grapes");
+            fruit.Add("banana");
+            fruit.Add("apple");
+
+            List<string> fruitCopy = new List<string>();
+
+            foreach (var item in fruit)
+            {
+            foreach (var item2 in fruitCopy)
+                { 
+                 if (item == item2)
+                    {
+                        Console.WriteLine(item + " has appered before.");
+                    }
+                }
+
+                fruitCopy.Add(item);
+
+                }
 
 
         }
