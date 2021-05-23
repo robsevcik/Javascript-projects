@@ -14,3 +14,5 @@ C:\Users\chefr\source\repos\Iteration assignment\obj\Debug\net5.0\Iteration assi
 C:\Users\chefr\source\repos\Iteration assignment\obj\Debug\net5.0\ref\Iteration assignment.dll
 C:\Users\chefr\source\repos\Iteration assignment\obj\Debug\net5.0\Iteration assignment.pdb
 C:\Users\chefr\source\repos\Iteration assignment\obj\Debug\net5.0\Iteration assignment.genruntimeconfig.cache
+C:\Users\chefr\source\repos\Iteration assignment\bin\Debug\net5.0\DryIoc.dll
+C:\Users\chefr\source\repos\Iteration assignment\obj\Debug\net5.0\Iteration assignment.csproj.CopyComplete
