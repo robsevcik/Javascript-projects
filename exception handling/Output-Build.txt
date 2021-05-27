@@ -1,0 +1,13 @@
+﻿Build started...
+1>------ Build started: Project: exception handling, Configuration: Debug Any CPU ------
+1>C:\Users\chefr\source\repos\exception handling\Program.cs(11,17,11,29): error CS0246: The type or namespace name 'list<>' could not be found (are you missing a using directive or an assembly reference?)
+1>C:\Users\chefr\source\repos\exception handling\Program.cs(11,44,11,56): error CS0246: The type or namespace name 'list<>' could not be found (are you missing a using directive or an assembly reference?)
+1>C:\Users\chefr\source\repos\exception handling\Program.cs(26,21,26,32): error CS0128: A local variable or function named 'numberthree' is already defined in this scope
+1>C:\Users\chefr\source\repos\exception handling\Program.cs(27,89,27,99): error CS0103: The name 'numberFour' does not exist in the current context
+1>C:\Users\chefr\source\repos\exception handling\Program.cs(28,21,28,32): error CS0128: A local variable or function named 'numberthree' is already defined in this scope
+1>C:\Users\chefr\source\repos\exception handling\Program.cs(28,47,28,58): error CS0103: The name 'numberThree' does not exist in the current context
+1>C:\Users\chefr\source\repos\exception handling\Program.cs(29,89,29,99): error CS0103: The name 'numberFive' does not exist in the current context
+1>C:\Users\chefr\source\repos\exception handling\Program.cs(32,36,32,38): warning CS0168: The variable 'ex' is declared but never used
+1>C:\Users\chefr\source\repos\exception handling\Program.cs(36,43,36,45): warning CS0168: The variable 'ex' is declared but never used
+1>Done building project "exception handling.csproj" -- FAILED.
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
