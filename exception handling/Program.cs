@@ -1,47 +1,48 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace exception_handling
 {
     class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args, bool result)
         {
             try
             {
-                list<string> intlist = new list<string>();
+                List<int> intlist = new List<int>();
                 intlist.Add(4);
                 intlist.Add(3);
                 intlist.Add(7);
                
 
-                Console.WriteLine("Pick a number do dived each number by");
+                Console.WriteLine("Pick a number to divide each number by");
 
                 int numberOne = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine("pick a second numbner");
-                int numberTwo = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("dividing the two..");
-                int numberthree = numberOne / numberTwo;
-                Console.WriteLine(numberOne + "  divided by" + numberTwo + "  equals" + numberthree);
-                int numberthree = numberTwo / numberTwo;
-                Console.WriteLine(numberOne + "  divided by" + numberTwo + "  equals" + numberFour);
-                int numberthree = numberTwo / numberThree;
-                Console.WriteLine(numberOne + "  divided by" + numberTwo + "  equals" + numberFive);
+                foreach (int number in intlist)
+                {
+                    int v = number / numberOne;
+                    int result1 = v;
+                }
+                Console.WriteLine(result);
+                
                 Console.ReadLine();
             }
-            catch (FormatException ex)
+            catch (FormatException )
             {
                 Console.WriteLine("please type a whole number");
             }
-            catch (DividedByZeroException ex)
+            catch (DividedByZeroException )
             {
                 Console.WriteLine("please dont divide by zero");
             }
-            catch (Exception ex)
+            catch (Exception )
             {
 
-                Console.WriteLine(ex.Message);
+                Console.WriteLine("no string please");
             }
+
+            Console.WriteLine("leaving the catch");
 
             Console.ReadLine();
 
