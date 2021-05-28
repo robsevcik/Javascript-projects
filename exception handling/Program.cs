@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace exception_handling
 {
     class Program
     {
-        private static void Main(string[] args, bool result)
+        public static bool Result { get; private set; }
+
+        static Task Main(string[] args)
         {
             try
             {
@@ -13,7 +16,7 @@ namespace exception_handling
                 intlist.Add(4);
                 intlist.Add(3);
                 intlist.Add(7);
-               
+
 
                 Console.WriteLine("Pick a number to divide each number by");
 
@@ -24,28 +27,28 @@ namespace exception_handling
                     int v = number / numberOne;
                     int result1 = v;
                 }
-                Console.WriteLine(result);
-                
+                Console.WriteLine(Result);
+
                 Console.ReadLine();
             }
-            catch (FormatException )
+            catch (FormatException)
             {
                 Console.WriteLine("please type a whole number");
             }
-            catch (DividedByZeroException )
+            catch (DividedByZeroException)
             {
                 Console.WriteLine("please dont divide by zero");
             }
-            catch (Exception )
+            catch (Exception)
             {
 
                 Console.WriteLine("no string please");
+           
+
+                Console.WriteLine("leaving the catch");
             }
-
-            Console.WriteLine("leaving the catch");
-
             Console.ReadLine();
-
+            return Task.CompletedTask;
         }
     }
 }
