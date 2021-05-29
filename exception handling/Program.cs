@@ -8,7 +8,7 @@ namespace exception_handling
     {
         public static bool Result { get; private set; }
 
-        static Task Main(string[] args)
+        static void Main(string[] args)
         {
             try
             {
@@ -48,7 +48,7 @@ namespace exception_handling
                 Console.WriteLine("leaving the catch");
             }
             Console.ReadLine();
-            return Task.CompletedTask;
+            
         }
     }
 }
