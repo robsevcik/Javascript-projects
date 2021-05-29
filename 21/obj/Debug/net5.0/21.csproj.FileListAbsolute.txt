@@ -1,0 +1,16 @@
+C:\Users\chefr\source\repos\21\bin\Debug\net5.0\21.exe
+C:\Users\chefr\source\repos\21\bin\Debug\net5.0\21.deps.json
+C:\Users\chefr\source\repos\21\bin\Debug\net5.0\21.runtimeconfig.json
+C:\Users\chefr\source\repos\21\bin\Debug\net5.0\21.runtimeconfig.dev.json
+C:\Users\chefr\source\repos\21\bin\Debug\net5.0\21.dll
+C:\Users\chefr\source\repos\21\bin\Debug\net5.0\ref\21.dll
+C:\Users\chefr\source\repos\21\bin\Debug\net5.0\21.pdb
+C:\Users\chefr\source\repos\21\obj\Debug\net5.0\21.csprojAssemblyReference.cache
+C:\Users\chefr\source\repos\21\obj\Debug\net5.0\21.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chefr\source\repos\21\obj\Debug\net5.0\21.AssemblyInfoInputs.cache
+C:\Users\chefr\source\repos\21\obj\Debug\net5.0\21.AssemblyInfo.cs
+C:\Users\chefr\source\repos\21\obj\Debug\net5.0\21.csproj.CoreCompileInputs.cache
+C:\Users\chefr\source\repos\21\obj\Debug\net5.0\21.dll
+C:\Users\chefr\source\repos\21\obj\Debug\net5.0\ref\21.dll
+C:\Users\chefr\source\repos\21\obj\Debug\net5.0\21.pdb
+C:\Users\chefr\source\repos\21\obj\Debug\net5.0\21.genruntimeconfig.cache
