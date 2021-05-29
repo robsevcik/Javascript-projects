@@ -25,12 +25,15 @@ namespace exception_handling
                 foreach (int number in intlist)
                 {
                     int v = number / numberOne;
-                    int result1 = v;
-                }
-                Console.WriteLine(Result);
+                    Console.WriteLine(v);
 
-                Console.ReadLine();
+                }
+
+
             }
+
+
+
             catch (FormatException)
             {
                 Console.WriteLine("please type a whole number");
@@ -43,7 +46,7 @@ namespace exception_handling
             {
 
                 Console.WriteLine("no string please");
-           
+
 
                 Console.WriteLine("leaving the catch");
             }
