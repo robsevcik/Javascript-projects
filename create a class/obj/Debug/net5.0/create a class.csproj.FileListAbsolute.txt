@@ -1,0 +1,5 @@
+C:\Users\chefr\source\repos\create a class\obj\Debug\net5.0\create a class.csprojAssemblyReference.cache
+C:\Users\chefr\source\repos\create a class\obj\Debug\net5.0\create a class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chefr\source\repos\create a class\obj\Debug\net5.0\create a class.AssemblyInfoInputs.cache
+C:\Users\chefr\source\repos\create a class\obj\Debug\net5.0\create a class.AssemblyInfo.cs
+C:\Users\chefr\source\repos\create a class\obj\Debug\net5.0\create a class.csproj.CoreCompileInputs.cache
