@@ -1,0 +1,16 @@
+C:\Users\chefr\source\repos\create a class2\obj\Debug\net5.0\create a class2.csprojAssemblyReference.cache
+C:\Users\chefr\source\repos\create a class2\obj\Debug\net5.0\create a class2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chefr\source\repos\create a class2\obj\Debug\net5.0\create a class2.AssemblyInfoInputs.cache
+C:\Users\chefr\source\repos\create a class2\obj\Debug\net5.0\create a class2.AssemblyInfo.cs
+C:\Users\chefr\source\repos\create a class2\obj\Debug\net5.0\create a class2.csproj.CoreCompileInputs.cache
+C:\Users\chefr\source\repos\create a class2\bin\Debug\net5.0\create a class2.exe
+C:\Users\chefr\source\repos\create a class2\bin\Debug\net5.0\create a class2.deps.json
+C:\Users\chefr\source\repos\create a class2\bin\Debug\net5.0\create a class2.runtimeconfig.json
+C:\Users\chefr\source\repos\create a class2\bin\Debug\net5.0\create a class2.runtimeconfig.dev.json
+C:\Users\chefr\source\repos\create a class2\bin\Debug\net5.0\create a class2.dll
+C:\Users\chefr\source\repos\create a class2\bin\Debug\net5.0\ref\create a class2.dll
+C:\Users\chefr\source\repos\create a class2\bin\Debug\net5.0\create a class2.pdb
+C:\Users\chefr\source\repos\create a class2\obj\Debug\net5.0\create a class2.dll
+C:\Users\chefr\source\repos\create a class2\obj\Debug\net5.0\ref\create a class2.dll
+C:\Users\chefr\source\repos\create a class2\obj\Debug\net5.0\create a class2.pdb
+C:\Users\chefr\source\repos\create a class2\obj\Debug\net5.0\create a class2.genruntimeconfig.cache
