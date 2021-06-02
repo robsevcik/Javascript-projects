@@ -6,11 +6,11 @@ namespace create_a_class2
     {
         static void Main(string[] args)
         {
-            Program p = new Program();
+            Math math = new Math();
 
-            static void MyMethod1();
-            static void MyMethod2()
-            static void MyMethod3();
+            math.MyMethod1();
+            math.MyMethod2();
+            math.MyMethod3();
 
         }
     }
