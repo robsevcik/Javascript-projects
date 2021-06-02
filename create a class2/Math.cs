@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace create_a_class
+namespace create_a_class2
 {
     class Math
     {
-        static void MyMethod1()
+        public void MyMethod1()
         {
             Console.WriteLine("enter a number to multiply by");
             int numone = Convert.ToInt32(Console.ReadLine());
@@ -18,7 +18,7 @@ namespace create_a_class
 
             Console.WriteLine(i);
         }
-        static void MyMethod2()
+        public void MyMethod2()
         {
             Console.WriteLine("enter a number to divide by");
             int numone = Convert.ToInt32(Console.ReadLine());
@@ -28,7 +28,7 @@ namespace create_a_class
 
             Console.WriteLine(b);
         }
-        static void MyMethod3()
+        public void MyMethod3()
         {
             Console.WriteLine("enter a number to subtract");
             int numone = Convert.ToInt32(Console.ReadLine());
