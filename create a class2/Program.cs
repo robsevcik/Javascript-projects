@@ -10,33 +10,31 @@ namespace create_a_class2
 
             Console.WriteLine("enter a number to multiply by");
             int numone = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("enter another");
-            int numtwo = Convert.ToInt32(Console.ReadLine());
+            
 
-
-            math.MyMethod1(numone, numtwo);
-
+           int d = math.MyMethod1(numone);
+            Console.WriteLine(d);
+            
 
             Console.WriteLine("enter a number to divide by");
             int a = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("enter another");
-            int b = Convert.ToInt32(Console.ReadLine());
+            
 
 
 
-            math.MyMethod2(a, b);
-
+           int r = math.MyMethod2(a);
+            Console.WriteLine(r);
 
             Console.WriteLine("enter a number to subtract");
             int c = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("enter another");
-            int d = Convert.ToInt32(Console.ReadLine());
+           
 
 
 
 
 
-            math.MyMethod3(c,d);
+           int y= math.MyMethod3(c);
+            Console.WriteLine(y);
 
         }
     }
