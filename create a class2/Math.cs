@@ -8,26 +8,26 @@ namespace create_a_class2
 {
     class Math
     {
-        public void MyMethod1(int numone, int numtwo)
+        public int MyMethod1(int numtwo)
         {
             
-            int i = numone * numtwo;
+            int i = numtwo + 5;
 
-            Console.WriteLine(i);
+            return i;
         }
-        public void MyMethod2(int numone, int numtwo)
+        public int MyMethod2( int numtwo)
         {
            
-            int b = numone / numtwo;
+            int b = numtwo +6;
 
-            Console.WriteLine(b);
+            return b;
         }
-        public void MyMethod3(int numone, int numtwo)
+        public int MyMethod3(int numtwo)
         {
            
-            int d = numone - numtwo;
+            int d = numtwo + 7;
 
-            Console.WriteLine(d);
+            return d;
         }
 
     }
