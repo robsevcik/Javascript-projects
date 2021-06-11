@@ -20,19 +20,19 @@ namespace Main_method_submission_assignment
             Math math = new();
 
             Console.WriteLine("enter a number to add by");
-            int numone = Convert.ToInt32(Console.ReadLine());
+            int numtwo = (int)Convert.ToDouble(Console.ReadLine());
 
 
-            int b = math.MyMethod1(numone);
+            int b = math.MyMethod1(numtwo);
             Console.WriteLine(b);
 
             Math math = new();
 
             Console.WriteLine("enter a number to subtract by");
-            int numone = Convert.ToInt32(Console.ReadLine());
+            int numthree = Convert.ToString(Console.ReadLine());
 
 
-            int c = math.MyMethod1(numone);
+            int c = math.MyMethod1(numthree);
             Console.WriteLine(c);
         } 
     }
