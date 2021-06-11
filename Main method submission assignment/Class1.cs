@@ -8,8 +8,8 @@ namespace Main_method_submission_assignment
 {
     class Math
     {
-        
-public int MyMethod1(int numtwo)
+
+        public int MyMethod1(int numtwo)
         {
 
             int i = numtwo * 5;
@@ -17,21 +17,21 @@ public int MyMethod1(int numtwo)
             return i;
         }
 
-        public double MyMethod1(int numtwo)
+        public double MyMethod1(int numthree)
         {
 
-            double i = numtwo + 5;
+            int m = numthree + 6;
 
-            return i;
+            return m;
         }
 
-        public string MyMethod1(int numtwo)
+        public int MyMethod1(int numfour)
         {
 
-            int i = numtwo - 5;
+            int n = numfour - 8;
 
-            return i;
+            return n;
         }
-
+    }
 
     }
