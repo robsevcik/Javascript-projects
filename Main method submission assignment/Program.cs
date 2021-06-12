@@ -4,7 +4,7 @@ namespace Main_method_submission_assignment
 {
     class Class1
     {
-        static void Main(string[])
+        private static void Main(string [])
         {
             Math math = new();
 
@@ -21,10 +21,10 @@ namespace Main_method_submission_assignment
            
 
             Console.WriteLine("enter a number to add by");
-            double numtwo = Convert.ToDouble(Console.ReadLine());
+            decimal numtwo = Convert.ToInt32(Console.ReadLine());
 
 
-            double b = math.MyMethod1(numtwo);
+            decimal b = math.MyMethod1(numtwo);
             Console.WriteLine(b);
 
             Math math2 = new();
