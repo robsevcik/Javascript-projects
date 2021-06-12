@@ -25,11 +25,11 @@ namespace Main_method_submission_assignment
             return m;
         }
 
-        public string MyMethod1(string numfour)
+        public int MyMethod1(string numfour)
         {
 
             
-           int n = numfour - 8;
+           string n = numfour - 8;
 
             return n;
         }
