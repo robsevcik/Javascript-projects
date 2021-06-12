@@ -3,3 +3,14 @@ C:\Users\chefr\source\repos\Main method submission assignment\obj\Debug\net5.0\M
 C:\Users\chefr\source\repos\Main method submission assignment\obj\Debug\net5.0\Main method submission assignment.AssemblyInfoInputs.cache
 C:\Users\chefr\source\repos\Main method submission assignment\obj\Debug\net5.0\Main method submission assignment.AssemblyInfo.cs
 C:\Users\chefr\source\repos\Main method submission assignment\obj\Debug\net5.0\Main method submission assignment.csproj.CoreCompileInputs.cache
+C:\Users\chefr\source\repos\Main method submission assignment\bin\Debug\net5.0\Main method submission assignment.exe
+C:\Users\chefr\source\repos\Main method submission assignment\bin\Debug\net5.0\Main method submission assignment.deps.json
+C:\Users\chefr\source\repos\Main method submission assignment\bin\Debug\net5.0\Main method submission assignment.runtimeconfig.json
+C:\Users\chefr\source\repos\Main method submission assignment\bin\Debug\net5.0\Main method submission assignment.runtimeconfig.dev.json
+C:\Users\chefr\source\repos\Main method submission assignment\bin\Debug\net5.0\Main method submission assignment.dll
+C:\Users\chefr\source\repos\Main method submission assignment\bin\Debug\net5.0\ref\Main method submission assignment.dll
+C:\Users\chefr\source\repos\Main method submission assignment\bin\Debug\net5.0\Main method submission assignment.pdb
+C:\Users\chefr\source\repos\Main method submission assignment\obj\Debug\net5.0\Main method submission assignment.dll
+C:\Users\chefr\source\repos\Main method submission assignment\obj\Debug\net5.0\ref\Main method submission assignment.dll
+C:\Users\chefr\source\repos\Main method submission assignment\obj\Debug\net5.0\Main method submission assignment.pdb
+C:\Users\chefr\source\repos\Main method submission assignment\obj\Debug\net5.0\Main method submission assignment.genruntimeconfig.cache
