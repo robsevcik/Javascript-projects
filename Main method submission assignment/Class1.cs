@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Main_method_submission_assignment
 {
@@ -11,27 +7,27 @@ namespace Main_method_submission_assignment
 
         public int MyMethod1(int numtwo)
         {
-
-            int i = numtwo * 5;
+            int j = Convert.ToInt32(numtwo);
+            int i = j * 5;
 
             return i;
         }
 
-        public static double MyMethod1(double numthree)
+        public int MyMethod1(decimal numthree)
         {
-
-            double m = numthree + 6;
+            int z = Convert.ToInt32(numthree);
+            int m = z + 6;
 
             return m;
         }
 
         public int MyMethod1(string numfour)
         {
-
+            int n = Convert.ToInt32(numfour);
             
-           string n = numfour - 8;
+           int x = n + 8;
 
-            return n;
+            return x;
         }
     }
 
