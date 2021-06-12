@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Main method submission assignment/1.0.0": {
+        "runtime": {
+          "Main method submission assignment.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Main method submission assignment/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
