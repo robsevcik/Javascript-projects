@@ -8,7 +8,7 @@ namespace Method_Submission_assignment
 {
     class Math
     {
-        public int MyMethod1(int numone, int numtwo);
+        public int MyMethod1(int numone, int numtwo)
         {
             
             int i =  numone * numtwo * 5;
