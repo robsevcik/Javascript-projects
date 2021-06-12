@@ -4,7 +4,7 @@ namespace Main_method_submission_assignment
 {
     class Class1
     {
-        private static void Main(string [])
+        private static void Main()
         {
             Math math = new();
 
