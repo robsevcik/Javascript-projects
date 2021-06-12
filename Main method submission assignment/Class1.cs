@@ -25,7 +25,7 @@ namespace Main_method_submission_assignment
         {
             int n = Convert.ToInt32(numfour);
             
-           int x = n + 8;
+           int x = n - 8;
 
             return x;
         }
