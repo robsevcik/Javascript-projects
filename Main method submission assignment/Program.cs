@@ -30,10 +30,10 @@ namespace Main_method_submission_assignment
             Math math2 = new();
 
             Console.WriteLine("enter a number to subtract by");
-            string numthree = Convert.ToInt32(Console.ReadLine());
+            int numthree = Convert.ToInt32(Console.ReadLine());
 
 
-            string c = math.MyMethod1(numthree);
+            int c = math.MyMethod1(numthree);
             Console.WriteLine(c);
         } 
     }
