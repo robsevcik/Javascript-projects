@@ -4,7 +4,7 @@ namespace Main_method_submission_assignment
 {
     class Class1
     {
-        static void Main(string[] args)
+        static void Main(string[])
         {
             Math math = new();
 
@@ -17,22 +17,23 @@ namespace Main_method_submission_assignment
 
 
 
-            Math math = new();
+            Math math1 = new();
+           
 
             Console.WriteLine("enter a number to add by");
-            int numtwo = (int)Convert.ToDouble(Console.ReadLine());
+            double numtwo = Convert.ToDouble(Console.ReadLine());
 
 
-            int b = math.MyMethod1(numtwo);
+            double b = math.MyMethod1(numtwo);
             Console.WriteLine(b);
 
-            Math math = new();
+            Math math2 = new();
 
             Console.WriteLine("enter a number to subtract by");
-            int numthree = Convert.ToString(Console.ReadLine());
+            string numthree = Convert.ToInt32(Console.ReadLine());
 
 
-            int c = math.MyMethod1(numthree);
+            string c = math.MyMethod1(numthree);
             Console.WriteLine(c);
         } 
     }
