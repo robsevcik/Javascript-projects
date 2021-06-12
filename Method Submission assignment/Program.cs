@@ -11,12 +11,12 @@ namespace Method_Submission_assignment
             Console.WriteLine("enter a number to multiply by");
             int numone = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("enter a second number, or nothing");
+            Console.WriteLine("enter a second number, or zero");
             int numtwo = Convert.ToInt32(Console.ReadLine());
 
 
             int d = math.MyMethod1(numone, numtwo);
-            Console.WriteLine("total of numbers multiplyed"+ d);
+            Console.WriteLine("total of numbers multiplyed, times 5 = "+ d);
 
         }
     }
