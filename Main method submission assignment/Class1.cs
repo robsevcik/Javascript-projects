@@ -17,18 +17,19 @@ namespace Main_method_submission_assignment
             return i;
         }
 
-        public double MyMethod1(int numthree)
+        public static double MyMethod1(double numthree)
         {
 
-            int m = numthree + 6;
+            double m = numthree + 6;
 
             return m;
         }
 
-        public int MyMethod1(int numfour)
+        public string MyMethod1(string numfour)
         {
 
-            int n = numfour - 8;
+            
+           int n = numfour - 8;
 
             return n;
         }
