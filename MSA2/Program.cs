@@ -4,7 +4,7 @@ namespace Method_Submission_assignment
 {
     class Program
     {
-        static void Main()
+        public static void Main()
         {
             Math math = new();
 
@@ -15,7 +15,7 @@ namespace Method_Submission_assignment
             int numtwo = Convert.ToInt32(Console.ReadLine());
 
 
-            int d = math.MyMethod1(numone);
+            int d = math.MyMethod(numone);
             Console.WriteLine("here is your number, times 5 = "+ d);
 
             Console.WriteLine("the other number was: "+ numtwo);
