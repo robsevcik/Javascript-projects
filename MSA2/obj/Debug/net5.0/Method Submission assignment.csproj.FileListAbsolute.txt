@@ -22,3 +22,11 @@ C:\Users\chefr\source\repos\MSA2\obj\Debug\net5.0\Method Submission assignment.c
 C:\Users\chefr\source\repos\MSA2\obj\Debug\net5.0\Method Submission assignment.dll
 C:\Users\chefr\source\repos\MSA2\obj\Debug\net5.0\ref\Method Submission assignment.dll
 C:\Users\chefr\source\repos\MSA2\obj\Debug\net5.0\Method Submission assignment.pdb
+D:\Documents\Javascript projects\Javascript-projects\MSA2\obj\Debug\net5.0\Method Submission assignment.csproj.AssemblyReference.cache
+D:\Documents\Javascript projects\Javascript-projects\MSA2\obj\Debug\net5.0\Method Submission assignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Javascript projects\Javascript-projects\MSA2\obj\Debug\net5.0\Method Submission assignment.AssemblyInfoInputs.cache
+D:\Documents\Javascript projects\Javascript-projects\MSA2\obj\Debug\net5.0\Method Submission assignment.AssemblyInfo.cs
+D:\Documents\Javascript projects\Javascript-projects\MSA2\obj\Debug\net5.0\Method Submission assignment.csproj.CoreCompileInputs.cache
+D:\Documents\Javascript projects\Javascript-projects\MSA2\obj\Debug\net5.0\Method Submission assignment.dll
+D:\Documents\Javascript projects\Javascript-projects\MSA2\obj\Debug\net5.0\ref\Method Submission assignment.dll
+D:\Documents\Javascript projects\Javascript-projects\MSA2\obj\Debug\net5.0\Method Submission assignment.pdb
