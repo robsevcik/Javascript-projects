@@ -8,13 +8,13 @@ namespace Method_Submission_assignment
 {
     class Math
     {
-        public int MyMethod1(int numone)
+        public static void  MyMethod(int numone)
         {
             
             int i =  numone * 5;
             
 
-            return i;
+            return;
 
            
 
