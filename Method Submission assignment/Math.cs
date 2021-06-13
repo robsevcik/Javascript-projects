@@ -16,18 +16,13 @@ namespace Method_Submission_assignment
             return i;
         }
 
-        int x = Console.ReadLine();
-        string yStr = Console.ReadLine();
+        public int MyMethod(int numone)
+        {
 
-        if (string = "")
-        {
-          a =  x + 5;
-          Console.WriteLine(a);
+            int a = numone * 5;
+
+            return a;
         }
-        else
-        {
-        int y = Convert.ToInt32(yStr);
-        b = y + 5;
-        Console.writeLine(b);
+     
     }
 }
