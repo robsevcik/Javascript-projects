@@ -14,3 +14,11 @@ C:\Users\chefr\source\repos\Method Submission assignment\obj\Debug\net5.0\Method
 C:\Users\chefr\source\repos\Method Submission assignment\obj\Debug\net5.0\ref\Method Submission assignment.dll
 C:\Users\chefr\source\repos\Method Submission assignment\obj\Debug\net5.0\Method Submission assignment.pdb
 C:\Users\chefr\source\repos\Method Submission assignment\obj\Debug\net5.0\Method Submission assignment.genruntimeconfig.cache
+C:\Users\chefr\source\repos\MSA2\obj\Debug\net5.0\Method Submission assignment.csproj.AssemblyReference.cache
+C:\Users\chefr\source\repos\MSA2\obj\Debug\net5.0\Method Submission assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chefr\source\repos\MSA2\obj\Debug\net5.0\Method Submission assignment.AssemblyInfoInputs.cache
+C:\Users\chefr\source\repos\MSA2\obj\Debug\net5.0\Method Submission assignment.AssemblyInfo.cs
+C:\Users\chefr\source\repos\MSA2\obj\Debug\net5.0\Method Submission assignment.csproj.CoreCompileInputs.cache
+C:\Users\chefr\source\repos\MSA2\obj\Debug\net5.0\Method Submission assignment.dll
+C:\Users\chefr\source\repos\MSA2\obj\Debug\net5.0\ref\Method Submission assignment.dll
+C:\Users\chefr\source\repos\MSA2\obj\Debug\net5.0\Method Submission assignment.pdb
