@@ -6,7 +6,7 @@ namespace Method_Class_Submission_assignment
     {
         public void Main()
         {
-            Math math = new();
+            class2 class2 = new();
 
             Console.WriteLine("enter a number to multiply by");
             int numone = Convert.ToInt32(Console.ReadLine());
@@ -15,7 +15,7 @@ namespace Method_Class_Submission_assignment
             int numtwo = Convert.ToInt32(Console.ReadLine());
 
 
-            int d = math.MyMethod(numone);
+            int d = class2.MyMethod(numone);
             Console.WriteLine("here is your number, times 5 = "+ d);
 
             Console.WriteLine("the other number was: "+ numtwo);
