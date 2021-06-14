@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace Method_Submission_assignment
+namespace Method_Class_Submission_assignment
 {
     class Program
     {
-        public static void Main()
+        public void Main()
         {
             Math math = new();
 
