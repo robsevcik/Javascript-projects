@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chefr\\source\\repos\\Main method submission assignment\\Main method submission assignment.csproj",
+      "projectUniqueName": "D:\\Documents\\Javascript projects\\Javascript-projects\\Main method submission assignment\\Main method submission assignment.csproj",
       "projectName": "Main method submission assignment",
-      "projectPath": "C:\\Users\\chefr\\source\\repos\\Main method submission assignment\\Main method submission assignment.csproj",
+      "projectPath": "D:\\Documents\\Javascript projects\\Javascript-projects\\Main method submission assignment\\Main method submission assignment.csproj",
       "packagesPath": "C:\\Users\\chefr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chefr\\source\\repos\\Main method submission assignment\\obj\\",
+      "outputPath": "D:\\Documents\\Javascript projects\\Javascript-projects\\Main method submission assignment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
