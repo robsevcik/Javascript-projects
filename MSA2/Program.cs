@@ -14,9 +14,10 @@ namespace Method_Class_Submission_assignment
             Console.WriteLine("enter a second number, or zero");
             int numtwo = Convert.ToInt32(Console.ReadLine());
 
+             class2.MyMethod(numone, numtwo);
 
-            int d = class2.MyMethod(numone);
-            Console.WriteLine("here is your number, times 5 = "+ d);
+             class2.MyMethod(numone:17, numtwo:5);
+            
 
             Console.WriteLine("the other number was: "+ numtwo);
 
