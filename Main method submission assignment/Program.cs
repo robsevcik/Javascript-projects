@@ -21,7 +21,7 @@ namespace Main_method_submission_assignment
            
 
             Console.WriteLine("enter a number to add by");
-            decimal numtwo = Convert.ToInt32(Console.ReadLine());
+            decimal numtwo = Convert.ToDecimal(Console.ReadLine());
 
 
             decimal b = math.MyMethod1(numtwo);
